@@ -69,7 +69,7 @@ int main(int argc, char *argv[]) {
     printf("+-----------------------------------------------------------------------+\n\n");
 
     if (argc < 2) {
-        printf("Usage: hid-flash <bin_firmware_file> \n");
+        printf("Usage: CLI-HID <bin_firmware_file> \n");
         return 1;
     }
 
