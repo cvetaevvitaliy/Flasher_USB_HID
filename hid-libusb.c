@@ -44,7 +44,7 @@
 #include <wchar.h>
 
 /* GNU / LibUSB */
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 #ifndef __ANDROID__
 #include <iconv.h>
 #endif
